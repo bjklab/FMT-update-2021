@@ -1,0 +1,404 @@
+---
+title: "Fecal Microbiota Transplantation - 2021 Update"
+subtitle: "2021 Update"  
+author: "Brendan J. Kelly, MD, MS"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer-blue-grids-fade.css
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    seal: false
+    nature:
+      ratio: 16:9
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+
+---
+exclude: true
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+xaringan::summon_remark()
+```
+
+```{r xaringan-tile-view, echo=FALSE, message=FALSE, error=FALSE, include=FALSE, comment=FALSE}
+xaringanExtra::use_tile_view()
+xaringanExtra::use_webcam()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_animate_css()
+xaringanExtra::use_share_again()
+```
+
+---
+background-image: url(img/cdiff_flip_dark.png)
+background-size: cover
+class: middle left hide-count
+
+.fade-in[
+# <span style='color:white'>Fecal Microbiota Transplantation</span>
+]
+.fade-in[
+.callout-url-leftcorner[
+<span style='font-size:0.75em;font-weight:bold;color:white'>
+Brendan J. Kelly, MD, MS  
+Infectious Diseases & Epidemiology  
+University of Pennsylvania  
+</span>
+<span style='font-size:0.5em;font-weight:bold;color:white;'>
+`r format(Sys.Date(), '%d %B %Y')`
+</span>
+]
+]
+
+---
+
+# Disclosures  
+
+.pad-left[
+
+- None  
+  
+]
+
+
+
+---
+class: full-screen hide-count
+
+<div class="grid-3-1">
+<div class="extension-tile gridset-a animated flipInY"><div>What & Why?</div></div>
+</div>
+
+
+---
+layout: false
+class: full-screen hide-count
+
+<div class="grid-3-1">
+<div class="extension-tile gridset-a"><div>What & Why?</div></div>
+<div class="extension-tile gridset-b animated flipInX"><div>FMT @Penn</div></div>
+</div>
+
+
+---
+layout: false
+class: full-screen hide-count
+
+<div class="grid-3-1">
+<div class="extension-tile gridset-a"><div>What & Why?</div></div>
+<div class="extension-tile gridset-b"><div>FMT @Penn</div></div>
+<div class="extension-tile gridset-c animated bounceInDown"><div>Applications<br>in Oncology</div></div>
+</div>
+
+
+
+---
+layout: false
+class: full-screen hide-count
+
+<div class="grid-3-1">
+<div class="extension-tile gridset-a"><div>What & Why?</div></div>
+<div class="extension-tile gridset-grey"><div>FMT @Penn</div></div>
+<div class="extension-tile gridset-grey"><div>Applications<br>in Oncology</div></div>
+</div>
+
+
+
+---
+
+# Fecal Microbiota Transplantation (FMT)
+
+.pad-left[
+
+- Transplant fecal microbiota from healthy donor to colon of recipient  
+  
+- <u>Methods</u>: frozen oral capsules, solution via enteric tube, enema, colonoscopy  
+
+- <u>Indications</u>:
+
+    - _C. difficile_ infection (CDI) = driving force behind development  
+    
+    - MDRO colonization    
+    
+    - inflammatory bowel disease (IBD)  
+    
+    - oncology: auto-FMT post allo-SCT; immune checkpoint inhibitors; GVHD  
+
+
+]
+
+
+---
+
+# _Clostridioides difficile_ Infection
+
+.pad-left[
+
+- Infectious colitis that occurs after antibiotic treatment ("antibiotic-associated")  
+
+- Depletion of protective taxa (abx & PPI) ⇾ altered bile acid metabolism ⇾ germination of resident or recently ingested _C. difficile_ spores ⇾ expansion of vegetative _C. difficile_ ⇾ toxin production ⇾ colonic inflammation ⇾ CDI
+
+- Treatment with anti-CDI antibiotics (vancomycin, fidaxomicin) contributes to persistent depletion of protective taxa ⇾ risk for recurrent CDI
+
+- **FMT restores colonization resistance by restoring protective taxa**
+
+- <u>Note</u>: treatment with anti-CDI antibiotics is prerequisite
+
+]
+
+
+---
+background-image: url(img/tariq_2fmt_forest_plot.png)
+background-size: 900px
+background-position: 50% 35%
+
+
+.footnote[Tariq R et al _Clin Inf Dis_ 2019]
+
+
+
+---
+background-image: url(img/cdiff_idsa_guideline_2017_fmt.png)
+background-size: 900px
+background-position: 50% 35%
+
+
+.footnote[IDSA/SHEA Guidelines: McDonald LC et al _Clin Inf Dis_ 2018]
+
+
+---
+
+# Efficacy Despite Product Heterogeneity?
+
+.pad-left[
+
+- FMT contains multitudes:  
+
+    - bacteria, fungi, archaea... bacteriophage, eukaryotic viruses (e.g., TTVs) ...
+    
+     ... human colonocytes, metabolites
+
+- Causal models for efficacy versus _C. difficile_ infection:  
+
+    - Direct bacterial interaction? Bile acid metabolism-mediated interaction?  
+
+    - Bile acid metabolism & Th17 regulatory cells?  
+
+- **We do it because it works, but we don't know why!**
+
+]
+
+.footnote[Bojanova & Bordenstein _PLoS Biology_ 2016; Ott et al _Gastroenterology_ 2017; Hang et al _Nature_ 2019]
+
+
+---
+
+# FMT Regulation & Commercial Alternatives
+
+.pad-left[
+
+- **Guideline-recommended for CDI but no FDA-approved product**:
+
+    - IND required for non-CDI indications
+
+    - for CDI, FDA exercises "enforcement discretion"
+
+    - concern that product availability (e.g., OpenBiome) limiting RCT enrollment
+
+- Multiple companies with "ecobiotic" FMT alternatives in phase 2/3 trials:  
+
+    - Finch, Rebiotix, Seres, Vedanta  
+    
+    - May 2020: "Rebiotix and Ferring are the first to announce positive preliminary results on primary efficacy endpoint from ongoing pivotal Phase 3 clinical trial"
+
+
+]
+
+
+---
+layout: false
+class: full-screen hide-count
+
+<div class="grid-3-1">
+<div class="extension-tile gridset-grey"><div>What & Why?</div></div>
+<div class="extension-tile gridset-b animated flipInY"><div>FMT @Penn</div></div>
+<div class="extension-tile gridset-grey"><div>Applications<br>in Oncology</div></div>
+</div>
+
+
+---
+
+# FMT Program Development at Penn
+
+.pad-left[
+
+- <u>2014-2016</u>: ID Division Stool Bank  
+
+    - FDA enforcement discretion (no IND)
+    
+    - 67 FMTs: 82% aggregate cure rate
+  
+- <u>2016-2018</u>: OpenBiome partnership  
+
+- <u>2019-present</u>: "Penn Microbiome Therapy (PMT)"  
+
+    - IND for 3 products: capsule, upper GI liquid, enema  
+    
+    - 3 protocols: R-CDI, SC-CDI, postpartum incontinence (OB-GYN: Uduak Andy, PI)  
+    
+      (compassionate use for MDRO colonization)
+
+]
+
+
+---
+
+# Impact of COVID-19 on FMT at Penn
+
+.pad-left[
+
+- **FDA partial hold**: all doses manufactured after December 1, 2019
+
+- Adequate donor/dose screening:
+
+    - challenges with stool testing for SARS-CoV-2 (high LOD)
+    
+    - donor screening with serology? NP NAAT?
+
+- Ongoing COVID-19 activity slows (already slow) clinical trial enrollment
+
+- **Recent resumption of enrollment for all protocols**
+
+]
+
+
+
+---
+layout: false
+class: full-screen hide-count
+
+<div class="grid-3-1">
+<div class="extension-tile gridset-grey animated"><div>What & Why?</div></div>
+<div class="extension-tile gridset-grey animated"><div>FMT @Penn</div></div>
+<div class="extension-tile gridset-c animated flipInX"><div>Applications<br>in Oncology</div></div>
+</div>
+
+
+
+---
+background-image: url(img/peled_nejm_2020.png)
+background-size: 1000px
+background-position: 50% 60%
+
+# Dysbiosis & Death
+
+
+.footnote[Peled et al _NEJM_ 2020]
+
+
+
+---
+background-image: url(img/taur_diversity_vs_engraftment.png)
+background-size: 800px
+background-position: 50% 50%
+
+# Auto-FMT Post Allo-SCT
+
+.footnote[Taur et al _Sci Trans Med_ 2018]
+
+
+---
+background-image: url(img/taur_fmt_taxa.png)
+background-size: 600px
+background-position: 50% 60%
+
+
+.footnote[Taur et al _Sci Trans Med_ 2018]
+
+
+---
+
+# FMT & Immune Checkpoint Inhibitors
+
+.pad-left[
+
+- Differential bacterial signatures of ICI responders versus non-responders
+
+- Modulation of the gut microbiome via FMT from patients alters antitumor immunity and response to ICI therapy in gnotobiotic mice
+
+- FMT also applied to & resolves ICI-related colitis: 
+
+    - variable (donor-dependent) effects on microbiome  
+    
+    - increase proportion of regulatory T-cells in colonic mucosa  
+
+]
+    
+.footnote[Routy et al _Science_ 2018; Gopalakrishnan et al _Science_ 2018; Matson et al _Science_ 2018; Wang et al _Nat Med_ 2018]
+
+
+---
+
+# FMT & GVHD  
+
+.pad-left[
+
+- Disruption of intestinal microbiota associated with GVHD
+
+- Recent prospective single-arm study:  
+
+    - 15 post-allo-HCT with steroid-dependent, acute or late-onset acute intestinal GvHD
+
+    - effect of donor FMT on GVHD symptoms and biomarkers  
+    
+    - 10 of 15 study participants with complete clinical response observed within 1 month after FMT, without additional interventions to alleviate GVHD symptoms
+    
+    - associated increase in gut microbial alpha-diversity, a partial engraftment of donor bacterial species, and increased abundance of butyrate-producing bacteria, including _Clostridiales_ and _Blautia_ species
+    
+]
+    
+.footnote[van Lier et al _Sci Trans Med_ 2020]
+
+
+
+---
+
+# Risks of FMT in Oncology Patients  
+
+.pad-left[
+
+- Disseminated bacterial infection:
+
+    - ESBL _E. coli_ sepsis and death*  
+    
+- CMV & EBV:
+
+    - CMV colitis post-FMT has been reported  
+    
+    - risk of CMV listed on informed consent for our PMT prooducts
+    
+      (donors are screened for CMV/EBV but not restricted)
+
+- GVHD: given heterogeneity of FMT, potential for exacerbation?  
+  
+]
+
+.footnote[*DeFilipp et al _NEJM_ 2019]
+
+
+
+---
+class: middle center hide-count
+background-image: url(img/cdiff_flip_dark.png)
+background-size: cover
+
+# <span style='color:white'>Questions?</span>
+
+ <!-- .callout-url-bottom[  
+.fade-in[<span style="font-size:0.5em; color:white">slides ↓ </span>]  
+<span style="link-color:white">[bjklab.org](http://www.bjklab.org)</span>  
+] --> 
+
+
